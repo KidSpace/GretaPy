@@ -11,14 +11,14 @@ imshow(np.asarray(pil_im))
 imshow(pil_im)
 
 #--The Question and Answer Pairs
-print('Which of these is he best answer to this question?\n\n')
-print('A. Some Answer to the question\n')
-print('B. A Different Answer to the question\n')
-print('C. A Different Answer to the question\n')
-print('D. A Different Answer to the question\n')
+print('Deafness is...?\n\n')
+print('A. Being dead\n')
+print('B. Not being able to hear at all\n')
+print('C. Slight hearing impairment\n')
+print('D. Either not being able to hear at all OR having slight hearing impairment\n')
 
 #--Correct Answer
-answer = 'B'
+answer = 'D'
 
 #--Link to learn more
 url = "http://www.specialeducationguide.com/disability-profiles/hearing-impairments/"
