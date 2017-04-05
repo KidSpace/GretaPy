@@ -21,7 +21,7 @@ print('D. Either not being able to hear at all OR having slight hearing impairme
 answer = 'D'
 
 #--Link to learn more
-url = "http://www.specialeducationguide.com/disability-profiles/hearing-impairments/"
+url = "http://school.eb.com/levels/high/article/deafness/29631"
 
 #--Boolean
 understand_deafness=False
