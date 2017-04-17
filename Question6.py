@@ -17,7 +17,7 @@ print('b. False\n')
 
 
 #--Correct Answer
-answer = 'd'
+answer = 'a'
 
 #--Link to learn more
 url = "http://school.eb.com/levels/high/article/deafness/29631"
