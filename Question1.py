@@ -12,13 +12,13 @@ imshow(pil_im)
 
 #--The Question and Answer Pairs
 print('Deafness is...?\n\n')
-print('A. Being dead\n')
-print('B. Not being able to hear at all\n')
-print('C. Slight hearing impairment\n')
-print('D. Either not being able to hear at all OR having slight hearing impairment\n')
+print('a. Being dead\n')
+print('b. Not being able to hear at all\n')
+print('c. Slight hearing impairment\n')
+print('d. Either not being able to hear at all OR having slight hearing impairment\n')
 
 #--Correct Answer
-answer = 'D'
+answer = 'd'
 
 #--Link to learn more
 url = "http://school.eb.com/levels/high/article/deafness/29631"
@@ -28,7 +28,7 @@ understand_deafness=False
 
 #--While loop
 while not understand_deafness:        
-    guess = input('A, B, C, or D?\n\n\n')
+    guess = input('a, b, c, or d?\n\n\n')
     
     if guess == answer:
         print('Correct! Great Job! You Just Passed Through Door # {}!'.format(number))
