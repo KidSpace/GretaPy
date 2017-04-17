@@ -3,10 +3,10 @@ from matplotlib.pyplot import imshow
 import numpy as np
 from PIL import Image
 
-number = 1
+number = 6
 
 #--Cool Image to show if they answer the question Right
-pil_im = Image.open('door1.png', 'r')
+pil_im = Image.open('door6.png', 'r')
 imshow(np.asarray(pil_im))
 imshow(pil_im)
 
@@ -19,8 +19,6 @@ print('b. False\n')
 #--Correct Answer
 answer = 'a'
 
-#--Link to learn more
-url = "http://school.eb.com/levels/high/article/deafness/29631"
 
 #--Boolean
 understand_deafness=False
