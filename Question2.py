@@ -11,11 +11,11 @@ imshow(np.asarray(pil_im))
 imshow(pil_im)
 
 #--The Question and Answer Pairs
-print('Which of these is he best answer to this question?\n\n')
-print('A. Some Answer to the question\n')
-print('B. A Different Answer to the question\n')
-print('C. A Different Answer to the question\n')
-print('D. A Different Answer to the question\n')
+print('The two main types of deafness are...?\n\n')
+print('A. old deafness and young deafness\n')
+print('B. conduction deafness and nerve deafness\n')
+print('C. happy deafness and sad deafness \n')
+print('D. genetic deafness and non genetic deafness\n')
 
 #--Correct Answer
 answer = 'B'
