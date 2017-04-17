@@ -12,28 +12,27 @@ imshow(np.asarray(pil_im))
 imshow(pil_im)
 
 #--The Question and Answer Pairs
-print('Which of these is he best answer to this question?\n\n')
-print('A. Some Answer to the question\n')
-print('B. A Different Answer to the question\n')
-print('C. A Different Answer to the question\n')
-print('D. A Different Answer to the question\n')
-
+print('If deaf students do not get proper educational intervention, they have often only achieved... skills upon graduating highschool.\n\n')
+print('a. first or second grade\n')
+print('b. third or fourth grade\n')
+print('c. tenth or twelfth grade\n')
+print('d. graduate school\n')
 #--Correct Answer
-answer = 'B'
+answer = 'b'
 
 #--Link to learn more
-url = "http://www.specialeducationguide.com/disability-profiles/hearing-impairments/"
+url4  = "http://www.asha.org/public/hearing/disorders/effects.htm"
 
 #--Boolean
 understand_deafness=False
 
 #--While loop
 while not understand_deafness:        
-    guess = input('A, B, C, or D?\n\n\n')
+    guess = input('a, b, c, or d?\n\n\n')
     
     if guess == answer:
         print('Correct! Great Job! You Just Passed Through Door # {}!'.format(number))
         understand_deafness=True
     else:
-        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url))
+        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url4))
         
