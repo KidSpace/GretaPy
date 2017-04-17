@@ -11,17 +11,15 @@ imshow(np.asarray(pil_im))
 imshow(pil_im)
 
 #--The Question and Answer Pairs
-print('Deafness is...?\n\n')
-print('a. Being dead\n')
-print('b. Not being able to hear at all\n')
-print('c. Slight hearing impairment\n')
-print('d. Either not being able to hear at all OR having slight hearing impairment\n')
+print('Current devices to help deaf people function normally do not include...?\n\n')
+print('a. Cochlear implants\n')
+print('b. hearing aids\n')
+print('c. a variety of around the house gadgets\n')
+print('d. moon rock ear transplants\n')
 
 #--Correct Answer
 answer = 'd'
 
-#--Link to learn more
-url = "http://school.eb.com/levels/high/article/deafness/29631"
 
 #--Boolean
 understand_deafness=False
@@ -34,6 +32,6 @@ while not understand_deafness:
         print('Correct! Great Job! You Just Passed Through Door # {}!'.format(number))
         understand_deafness=True
     else:
-        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url))
+        print('\nSorry, Try Again!)
         
 
