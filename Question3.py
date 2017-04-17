@@ -34,5 +34,5 @@ while not understand_deafness:
         print('Correct! Great Job! You Just Passed Through Door # {}!'.format(number))
         understand_deafness=True
     else:
-        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url))
+        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url2))
         
