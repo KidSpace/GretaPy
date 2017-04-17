@@ -11,17 +11,15 @@ imshow(np.asarray(pil_im))
 imshow(pil_im)
 
 #--The Question and Answer Pairs
-print('?\n\n')
-print('a. \n')
-print('b. \n')
-print('c. \n')
-print('d. \n')
+print('Deaf children cannot talk on the phone.\n\n')
+print('a. True \n')
+print('b. False\n')
 
 #--Correct Answer
-answer = 'c'
+answer = 'b'
 
 #--Link to learn more
-url = "http://school.eb.com/levels/high/article/deafness/29631"
+url4 = "http://www.ndcs.org.uk/family_support/fostering_deaf_children/six_things_you_didnt_know_about_deaf_children/"
 
 #--Boolean
 understand_deafness=False
@@ -34,6 +32,6 @@ while not understand_deafness:
         print('Correct! Great Job! You Just Passed Through Door # {}!'.format(number))
         understand_deafness=True
     else:
-        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url))
+        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url4))
         
 
