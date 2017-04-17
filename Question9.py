@@ -22,7 +22,8 @@ print('d. not enjoy listening to music but make music\n')
 answer = 'c'
 
 #--Link to learn more
-url5 = ""
+url5 = "http://www.ndcs.org.uk/family_support/fostering_deaf_children/six_things_you_didnt_know_about_deaf_children/"
+
 
 #--Boolean
 understand_deafness=False
