@@ -1,27 +1,29 @@
+
 # Greta's Quiz Game
 from matplotlib.pyplot import imshow
 import numpy as np
 from PIL import Image
 
-number = 5
-picture = 'door5.png'
+number = 9
 
 #--Cool Image to show if they answer the question Right
-pil_im = Image.open('{}'.format(picture), 'r')
+pil_im = Image.open('door9.png', 'r')
 imshow(np.asarray(pil_im))
 imshow(pil_im)
 
 #--The Question and Answer Pairs
-print('If deaf students do not get proper educational intervention, they have often only achieved... skills upon graduating highschool.\n\n')
-print('a. first or second grade\n')
-print('b. third or fourth grade\n')
-print('c. tenth or twelfth grade\n')
-print('d. graduate school\n')
+print('Deaf children can...?\n\n')
+print('Hint: Vibrations are heard AND felt...) 
+print('a. not enjoy listening to music or make music.\n')
+print('b. enjoy listening to music, but not make music.\n')
+print('c. enjoy listening to music AND make music\n')
+print('d. not enjoy listening to music but make music\n')
 #--Correct Answer
-answer = 'b'
+answer = 'c'
 
 #--Link to learn more
-url4  = "http://www.asha.org/public/hearing/disorders/effects.htm"
+url5 = "http://www.ndcs.org.uk/family_support/fostering_deaf_children/six_things_you_didnt_know_about_deaf_children/"
+
 
 #--Boolean
 understand_deafness=False
@@ -34,5 +36,5 @@ while not understand_deafness:
         print('Correct! Great Job! You Just Passed Through Door # {}!'.format(number))
         understand_deafness=True
     else:
-        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url4))
+        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url5))
         

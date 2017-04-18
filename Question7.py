@@ -3,25 +3,23 @@ from matplotlib.pyplot import imshow
 import numpy as np
 from PIL import Image
 
-number = 5
-picture = 'door5.png'
+number = 7
 
 #--Cool Image to show if they answer the question Right
-pil_im = Image.open('{}'.format(picture), 'r')
+pil_im = Image.open('door7.png', 'r')
 imshow(np.asarray(pil_im))
 imshow(pil_im)
 
 #--The Question and Answer Pairs
-print('If deaf students do not get proper educational intervention, they have often only achieved... skills upon graduating highschool.\n\n')
-print('a. first or second grade\n')
-print('b. third or fourth grade\n')
-print('c. tenth or twelfth grade\n')
-print('d. graduate school\n')
-#--Correct Answer
-answer = 'b'
+print('Current devices to help deaf people function normally do not include...?\n\n')
+print('a. Cochlear implants\n')
+print('b. hearing aids\n')
+print('c. a variety of around the house gadgets\n')
+print('d. moon rock ear transplants\n')
 
-#--Link to learn more
-url4  = "http://www.asha.org/public/hearing/disorders/effects.htm"
+#--Correct Answer
+answer = 'd'
+
 
 #--Boolean
 understand_deafness=False
@@ -34,5 +32,6 @@ while not understand_deafness:
         print('Correct! Great Job! You Just Passed Through Door # {}!'.format(number))
         understand_deafness=True
     else:
-        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url4))
+        print('\nSorry, Try Again!)
         
+

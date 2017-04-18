@@ -11,28 +11,28 @@ imshow(np.asarray(pil_im))
 imshow(pil_im)
 
 #--The Question and Answer Pairs
-print('Which of these is he best answer to this question?\n\n')
-print('A. Some Answer to the question\n')
-print('B. A Different Answer to the question\n')
-print('C. A Different Answer to the question\n')
-print('D. A Different Answer to the question\n')
+print('Congenital hearing loss is...?\n\n')
+print('a. Slight hearing loss\n')
+print('b. Caused by genetic factors ALL the time\n')
+print('c. Present at birth\n')
+print('d. Hearing loss old people get\n')
 
 #--Correct Answer
-answer = 'B'
+answer = 'c'
 
 #--Link to learn more
-url = "http://www.specialeducationguide.com/disability-profiles/hearing-impairments/"
+url2 = "http://www.asha.org/public/hearing/Congenital-Hearing-Loss/"
 
 #--Boolean
 understand_deafness=False
 
 #--While loop
 while not understand_deafness:        
-    guess = input('A, B, C, or D?\n\n\n')
+    guess = input('a, b, c, or d?\n\n\n')
     
     if guess == answer:
         print('Correct! Great Job! You Just Passed Through Door # {}!'.format(number))
         understand_deafness=True
     else:
-        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url))
+        print('\nSorry, Try Again! Go Here For a Clue: {}'.format(url2))
         
