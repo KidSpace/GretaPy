@@ -28,7 +28,7 @@ while not understand_deafness:
     guess = input('a, b, c, or d?\n\n\n')
     
     if guess == answer:
-        print('Correct! Great Job! You Just Passed Through Door # {}! And completed the challenge!'.format(number))
+        print('Correct! Great Job! You Just Passed Through Door # {}!'.format(number))
         understand_deafness=True
     else:
         print('\nSorry, Try Again! You really should have gotten this one right!)
