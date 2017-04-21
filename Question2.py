@@ -12,13 +12,13 @@ imshow(pil_im)
 
 #--The Question and Answer Pairs
 print('The two main types of deafness are...?\n\n')
-print('A. old deafness and young deafness\n')
-print('B. conduction deafness and nerve deafness\n')
-print('C. happy deafness and sad deafness \n')
-print('D. genetic deafness and non genetic deafness\n')
+print('a. old deafness and young deafness\n')
+print('b. conduction deafness and nerve deafness\n')
+print('c. happy deafness and sad deafness \n')
+print('d. genetic deafness and non genetic deafness\n')
 
 #--Correct Answer
-answer = 'B'
+answer = 'b'
 
 #--Link to learn more
 url = "http://school.eb.com/levels/high/article/deafness/29631"
@@ -28,7 +28,7 @@ understand_deafness=False
 
 #--While loop
 while not understand_deafness:        
-    guess = input('A, B, C, or D?\n\n\n')
+    guess = input('a, b, c, or d?\n\n\n')
     
     if guess == answer:
         print('Correct! Great Job! You Just Passed Through Door # {}!'.format(number))

@@ -13,7 +13,7 @@ imshow(pil_im)
 
 #--The Question and Answer Pairs
 print('Deaf children can...?\n\n')
-print('Hint: Vibrations are heard AND felt...) 
+print('Hint: Vibrations are heard AND felt...\n') 
 print('a. not enjoy listening to music or make music.\n')
 print('b. enjoy listening to music, but not make music.\n')
 print('c. enjoy listening to music AND make music\n')
